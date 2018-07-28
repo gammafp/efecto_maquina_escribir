@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Cuicom</title>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+    <main>
+        <div id="titulo">
+            <h1>CUICOM</h1>
+        </div>
+        <div id="maquina"></div>
+    </main>
+
+    <script src="maquina.js"></script>
+
+    <script>
+        
+        const configM = {
+            id: "maquina",
+            texto: "Hola. Bienvenido :D"
+        }
+
+        const iniciar = new MaquinaEscribir(configM);
+        iniciar.iniciarMaquina();
+
+    </script>
+</body>
+</html>
